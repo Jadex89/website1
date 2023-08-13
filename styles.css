@@ -16,6 +16,7 @@ body {
     margin: 0;
     padding: 10px 200px 10px;
     
+    
 }
 
 .header {
@@ -33,14 +34,17 @@ body {
     color: #F9FAF8;
     font-weight: 700;
     padding: 10px;
+    
 }
 
 
 .hero-logo {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
+    gap: 400px;
+    
     
 }
 
@@ -53,10 +57,16 @@ body {
     
 }
 
+.header-content {
+    margin-top: 20px;
+    text-align: left;
+}
+
 .header-title {
     font-size: 48px;
     font-weight: 700;
     color: #F9FAF8;
+    text-align: left;
 }
 
 .hero-main {
@@ -104,11 +114,14 @@ a {
 .button1 {
     outline: none;
     border: none;
+    margin-top: 20px;
+    
     
 }
 
 .button2 {
     border-color: #E5E7EB;
+    margin-left: 150px;
     
 }
 
@@ -162,27 +175,36 @@ a {
     padding-bottom: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
+    
  
 }
 
 .name {
     font-weight: 700;
     text-align: right;
-    margin-right: 150px;
+    margin-right: 25%;
 }
 
 
 .signup {
+    
     background-color: #3882F6;
     border-radius: 12px;
     color: #E5E7EB;
     font-size: 18px;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 150px 40px;
+    text-align: justify;
+
+    
     
     
     
 }
 
 .signup-title {
+
     font-size: 24px;
     font-weight: 700;
 }
